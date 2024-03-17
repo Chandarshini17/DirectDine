@@ -1,0 +1,96 @@
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center; /* Align text center */
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items */
+    justify-content: center; /* Center items horizontally */
+    gap: 2rem; /* Add spacing between items */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .col {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .list, .iconList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Align text left */
+  }
+  
+  .list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .iconList {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+  }
+  
+  .iconList li {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .emailInput {
+    padding: 0.5rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    width: 100%; /* Set input width to 100% */
+    max-width: 300px; /* Limit input width */
+  }
+  
+  .subscribeButton {
+    background-color: #ff4500; /* Orange Red */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribeButton:hover {
+    background-color: #ff5722; /* Darker Orange Red */
+  }
+  
+  .attribution {
+    margin-top: 2rem;
+  }
+  
+  .illustrations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center illustrations horizontally */
+  }
+  
+  .illustrations div {
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .illustrations a {
+    color: #ff4500; /* Orange Red */
+    text-decoration: none;
+  }
+  
+  .illustrations a:hover {
+    text-decoration: underline;
+  }
+  
+  
